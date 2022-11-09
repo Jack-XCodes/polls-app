@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width,initial-scale=1">
+		<title>Your Vote Matters!</title>
+		<link rel="stylesheet" type="text/css" href=".\bootstrap-4.3.1-dist\css\bootstrap.css">
+		<style>
+			body{
+				color: rgb(200,200,200);
+				background-image: url("pawel-czerwinski-prMn9KINLtI-unsplash.jpg");
+			}
+			div{
+				width: 80%;
+				background-color: rgb(0,0,0);
+				margin: auto;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				padding-top: 1px;
+				padding-left: 5px;
+				padding-bottom: 5px; 
+				max-width: 550px;
+				opacity: 0.8;
+				border: 2px solid rgb(200,200,200);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+		<center>
+			<h1>Survey</h1>
+			<p>Thank you for agreeing to take this survey. Your input is greatly appreciated. Please fill out the form below:</p>
+		</center>
+		<form target="_self" action="Results_page.html" method="post">
+			<div>
+				<p>How frequently do you visit our site?</p>
+				<input type="radio" name="visit"> <label>Always</label><br>
+				<input type="radio" name="visit"> <label>Sometimes </label><br>
+				<input type="radio" name="visit"> <label>Rarely</label><br>
+				<input type="radio" name="visit"> <label>Never</label><br>
+			</div>
+			<div>
+				<p>How would you rate our site?</p>
+				<input type="radio" name="rating"> <label>Very Good</label><br>
+				<input type="radio" name="rating"> <label>Good</label><br>
+				<input type="radio" name="rating"> <label>Average</label><br>
+				<input type="radio" name="rating"> <label>Not so bad</label><br>
+				<input type="radio" name="rating"> <label>Can do better</label><br>	
+			</div>
+			<div>
+				<p>How likely are you to recommend our site to others?</p>
+				<input type="radio" name="reccomend"> <label>Definately</label><br>
+				<input type="radio" name="reccomend"> <label>Very Likely</label><br>
+				<input type="radio" name="reccomend"> <label>Maybe</label><br>
+				<input type="radio" name="reccomend"> <label>Not likely</label><br>
+				<input type="radio" name="reccomend"> <label>Definately not</label><br>				
+			</div>
+			<div>
+				<p>How did you get to know about us?</p>
+				<input type="radio" name="marketing"> <label>Advertisements</label><br>
+				<input type="radio" name="marketing"> <label>Social media </label><br>
+				<input type="radio" name="marketing"> <label>Friends</label><br>
+				<input type="radio" name="marketing"> <label>I found you myself</label><br>
+			</div>
+			<center>
+				<input type="submit" value="Submit Form" class="btn btn-primary">
+			</center>			
+		</form>
+	</div>
+		<script src="jquery-3.6.1.js"></script>
+		<script src=".\bootstrap-4.3.1-dist\js\bootstrap.js"></script>
+	</body>
+</html>
