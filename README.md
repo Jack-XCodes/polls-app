@@ -7,6 +7,14 @@ The [figma design](./public/about.html) file is also available for reference on 
 
 ---
 
+Preffered languages for this project
+- **Javascript**
+- **CSS3**
+- **JQuery**
+Avoid using **Tailwind** and **Bootstrap** for consistency.
+
+---
+
 ### File structure
 
 1. [Public folder](./public/) <br>
@@ -24,10 +32,11 @@ The [figma design](./public/about.html) file is also available for reference on 
 
 For your Pull Request to be merged it must confer to the following rules.
 
-- A pull request should contain a **major update** to the project or a **bug fix**. \
-- Any **UI** feature addition should be relevant and should improve **UX**. \
-- If you find a typo please create an **issue**. Remember to check if the issue already exists.\
+- A pull request should contain a **major update** to the project or a **bug fix**.
+- Any **UI** feature addition should be relevant and should improve **UX**.
+- If you find a typo please create an **issue**. Remember to check if the issue already exists.
 - **No PR** should contain an alteration to the **README.md** in the root folder.
+- Incase you are to use extra **libraries** please use **CDNs**.
 
 ---
 
