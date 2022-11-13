@@ -37,6 +37,7 @@ For your Pull Request to be merged it must confer to the following rules.
 - If you find a typo please create an **issue**. Remember to check if the issue already exists.
 - **No PR** should contain an alteration to the **README.md** in the root folder.
 - Incase you are to use extra **libraries** please use **CDNs**.
+- All style sheets must be in separate files.
 
 ---
 
